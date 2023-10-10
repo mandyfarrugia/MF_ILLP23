@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Comments", "Comments\Commen
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Variables", "Variables\Variables.vcxproj", "{41EB1012-2E38-4FA1-997E-18E0FFAB0339}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataTypeRanges", "DataTypeRanges\DataTypeRanges.vcxproj", "{BBF29E22-3A9B-4F51-A11E-4C1D871FC3BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{41EB1012-2E38-4FA1-997E-18E0FFAB0339}.Release|x64.Build.0 = Release|x64
 		{41EB1012-2E38-4FA1-997E-18E0FFAB0339}.Release|x86.ActiveCfg = Release|Win32
 		{41EB1012-2E38-4FA1-997E-18E0FFAB0339}.Release|x86.Build.0 = Release|Win32
+		{BBF29E22-3A9B-4F51-A11E-4C1D871FC3BB}.Debug|x64.ActiveCfg = Debug|x64
+		{BBF29E22-3A9B-4F51-A11E-4C1D871FC3BB}.Debug|x64.Build.0 = Debug|x64
+		{BBF29E22-3A9B-4F51-A11E-4C1D871FC3BB}.Debug|x86.ActiveCfg = Debug|Win32
+		{BBF29E22-3A9B-4F51-A11E-4C1D871FC3BB}.Debug|x86.Build.0 = Debug|Win32
+		{BBF29E22-3A9B-4F51-A11E-4C1D871FC3BB}.Release|x64.ActiveCfg = Release|x64
+		{BBF29E22-3A9B-4F51-A11E-4C1D871FC3BB}.Release|x64.Build.0 = Release|x64
+		{BBF29E22-3A9B-4F51-A11E-4C1D871FC3BB}.Release|x86.ActiveCfg = Release|Win32
+		{BBF29E22-3A9B-4F51-A11E-4C1D871FC3BB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
