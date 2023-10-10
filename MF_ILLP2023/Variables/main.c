@@ -88,5 +88,13 @@ int main(void) {
 	printf("The size of the signed char data type: %zu bytes\n", sizeof(signed char));
 	printf("The size of the unsigned char data type: %zu bytes\n", sizeof(unsigned char));
 
+	/* Format specifiers are a way of displaying the contents of a variable depending on its data type.
+	 * %d is used to print the contents of variables of type int and short (specifically %hd for signed short).
+	 * %lf is used to print the contents of variables of type double.
+	 * %f is used to print the contents of variables of type float.
+	 * %c is used to print the contents of variables of type char.
+	 * %s is used to print the contents of variables of type char[] (or a string as known in C# or Java).
+	 * %lld is used to print the contents of variables of type long long. */
+
 	return 0;
 }
