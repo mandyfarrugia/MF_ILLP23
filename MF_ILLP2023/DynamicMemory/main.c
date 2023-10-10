@@ -28,12 +28,24 @@ int main(void) {
 	 * *<identifier-of-pointer> - Dereferencing a pointer */
 
 	//free() can only be used when dealing with dynamic memory, will not work with static memory. Use free() to avoid memory leak.
-	free(dynamicPtr); //Free the pointer from dynamic memory allocated to it, hence set the pointer back to NULL.
+	free(dynamicPtr); //Free the pointer from dynamic memory allocated to it.
 
 	/* Failure to free dynamic memory may result in memory leak, which is potentially dangerous 
 	 * since the larger the pool of unreleased memory can result in failures such as unexpected shutdowns.
 	 * You may notice the performance of your operating system becoming depleted. 
 	 * C encourages memory-efficiency, do not waste precious memory! :) */
+
+	dynamicPtr = NULL; //Set the pointer to NULL so it no longer points to a memory address after freeing dynamic memory back to the operating system.
+
+	if (dynamicPtr == NULL) {
+		printf("The pointer is no longer pointing to any memory addresses!\n");
+	}
+
+	//or...
+
+	if (!dynamicPtr) {
+		printf("Once again, the pointer is no longer pointing to any memory addresses!\n");
+	}
 
 	return 0;
 }
