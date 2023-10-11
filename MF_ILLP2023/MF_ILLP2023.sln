@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticArrays", "StaticArray
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicArrays", "DynamicArrays\DynamicArrays.vcxproj", "{FF08E3EE-BEA4-4C5D-BEFF-15ABB8AC0BF9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IfStatements", "IfStatements\IfStatements.vcxproj", "{2FFB4D06-84D6-41A6-83BF-ABB6C643A39A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{FF08E3EE-BEA4-4C5D-BEFF-15ABB8AC0BF9}.Release|x64.Build.0 = Release|x64
 		{FF08E3EE-BEA4-4C5D-BEFF-15ABB8AC0BF9}.Release|x86.ActiveCfg = Release|Win32
 		{FF08E3EE-BEA4-4C5D-BEFF-15ABB8AC0BF9}.Release|x86.Build.0 = Release|Win32
+		{2FFB4D06-84D6-41A6-83BF-ABB6C643A39A}.Debug|x64.ActiveCfg = Debug|x64
+		{2FFB4D06-84D6-41A6-83BF-ABB6C643A39A}.Debug|x64.Build.0 = Debug|x64
+		{2FFB4D06-84D6-41A6-83BF-ABB6C643A39A}.Debug|x86.ActiveCfg = Debug|Win32
+		{2FFB4D06-84D6-41A6-83BF-ABB6C643A39A}.Debug|x86.Build.0 = Debug|Win32
+		{2FFB4D06-84D6-41A6-83BF-ABB6C643A39A}.Release|x64.ActiveCfg = Release|x64
+		{2FFB4D06-84D6-41A6-83BF-ABB6C643A39A}.Release|x64.Build.0 = Release|x64
+		{2FFB4D06-84D6-41A6-83BF-ABB6C643A39A}.Release|x86.ActiveCfg = Release|Win32
+		{2FFB4D06-84D6-41A6-83BF-ABB6C643A39A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -62,9 +62,38 @@ int main(void) {
 			printf("Element at position %d: %d\n", index, dynamicArrayOfIntegers[index]);
 		}
 
+		//realloc() is used when we want to grow or shrink our dynamic array.
+		int doubleOriginalSize = TOTAL_ELEMENTS * 2;
+		//Do not forget to use sizeof() even when using realloc() as you will run the risk of undefined behaviour!
+		dynamicArrayOfIntegers = (int*)realloc(dynamicArrayOfIntegers, doubleOriginalSize * sizeof(int)); //Use realloc() to allow space for twice as much integers than we started with.
+		
+		//Do another NULL check to ensure that realloc() has worked well.
+		if (dynamicArrayOfIntegers != NULL) {
+			printf("Original array size: maximum of %d elements\nNew size: maximum of %d elements\n", TOTAL_ELEMENTS, doubleOriginalSize);
+			
+			/* Start from the original last position of the array so as not to affect the data of what we already had. 
+			 * At this point, we just want to fill in the newly allocated positions. */
+			for (int index = TOTAL_ELEMENTS; index < doubleOriginalSize; index++) {
+				do {
+					printf("Enter an element at position %d: ", index);
+					check = scanf("%d", &dynamicArrayOfIntegers[index]);
+					
+					if (check <= 0) {
+						printf("Invalid format! Please try again!\n");
+						while ((c = getchar()) != '\n' && c != EOF);
+					}
+				} while (check <= 0);
+			}
+
+			printf("\nData in the array dynamicArrayOfIntegers:\n");
+			for (int index = 0; index < doubleOriginalSize; index++) {
+				printf("Element at position %d: %d\n", index, dynamicArrayOfIntegers[index]);
+			}
+		}
+
 		free(dynamicArrayOfIntegers); //When we do not need the array anymore, we release the memory back to the operating system to avoid memory leak.
 		dynamicArrayOfIntegers = NULL; //It is also good practice to set the pointer to NULL to indicate that the pointer is currently not pointing to any memory addresses.
-
-		return 0;
 	}
+
+	return 0;
 }
