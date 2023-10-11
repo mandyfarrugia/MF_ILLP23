@@ -41,5 +41,10 @@ int main(void) {
 		printf("Index %d: %d\n", index, secondArrayOfIntegers[index]);
 	}
 
+	/* This code is used to print how many elements we have in our array. 
+	 * This is done by dividing the total size of the array by the size of one element.
+	 * For instance, for an array of five integers, the total would be 20 / 4, which would result in 5. */
+	printf("\nWe have a total of %zu elements in our array.\n", sizeof(secondArrayOfIntegers) / sizeof(secondArrayOfIntegers[0]));
+
 	return 0;
 } 
