@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicMemory", "DynamicMem
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArithmeticOperations", "ArithmeticOperations\ArithmeticOperations.vcxproj", "{FC20B95E-F692-479D-87B2-8800B3B4552E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticArrays", "StaticArrays\StaticArrays.vcxproj", "{D9672EC6-E798-4F71-90BA-F2EE5F7E96AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{FC20B95E-F692-479D-87B2-8800B3B4552E}.Release|x64.Build.0 = Release|x64
 		{FC20B95E-F692-479D-87B2-8800B3B4552E}.Release|x86.ActiveCfg = Release|Win32
 		{FC20B95E-F692-479D-87B2-8800B3B4552E}.Release|x86.Build.0 = Release|Win32
+		{D9672EC6-E798-4F71-90BA-F2EE5F7E96AC}.Debug|x64.ActiveCfg = Debug|x64
+		{D9672EC6-E798-4F71-90BA-F2EE5F7E96AC}.Debug|x64.Build.0 = Debug|x64
+		{D9672EC6-E798-4F71-90BA-F2EE5F7E96AC}.Debug|x86.ActiveCfg = Debug|Win32
+		{D9672EC6-E798-4F71-90BA-F2EE5F7E96AC}.Debug|x86.Build.0 = Debug|Win32
+		{D9672EC6-E798-4F71-90BA-F2EE5F7E96AC}.Release|x64.ActiveCfg = Release|x64
+		{D9672EC6-E798-4F71-90BA-F2EE5F7E96AC}.Release|x64.Build.0 = Release|x64
+		{D9672EC6-E798-4F71-90BA-F2EE5F7E96AC}.Release|x86.ActiveCfg = Release|Win32
+		{D9672EC6-E798-4F71-90BA-F2EE5F7E96AC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
